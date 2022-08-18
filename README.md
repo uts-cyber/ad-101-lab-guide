@@ -142,7 +142,7 @@ sudo systemctl status kibana
 ```
 
 # Install and Configure Sysmon
-Download Sysmon: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon
+Download Sysmon: https://download.sysinternals.com/files/Sysmon.zip
 
 Create a file called config.xml in C:/Windows and copy and paste the contents of the config.xml file found in this repo
 
@@ -152,7 +152,7 @@ Next, move into the Sysmon folder and install the app
 ```
 
 # Install and Configure Winlogbeats
-Navigate to ```https://www.elastic.co/downloads/beats/winlogbeat``` and download winlogbeats 7.10.1. It is important you get this version
+Navigate to ```https://artifacts.elastic.co/downloads/beats/winlogbeat/winlogbeat-7.10.1-windows-x86_64.zip``` and download winlogbeats 7.10.1. It is important you get this version
 
 Once downloaded, extract the contents to C:\Program Files
 
