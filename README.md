@@ -7,7 +7,7 @@ Note: This lab guide is not enough to setup the lab by itself. This guide was de
 |---|---|
 | Computer Name | DC01 |
 | Username | Yoda |
-| Password | Password1 |
+| Password | Password1234$ |
 | IP address | 10.0.0.4 |
 | Domain name | starwars.local |
 
@@ -15,7 +15,7 @@ Note: This lab guide is not enough to setup the lab by itself. This guide was de
 |---|---|
 | Computer Name | PC01 |
 | Username | Kenobi |
-| Password | Password1 |
+| Password | Password1234$ |
 | IP address | 10.0.0.5 |
 | Domain name | starwars.local |
 
@@ -23,7 +23,7 @@ Note: This lab guide is not enough to setup the lab by itself. This guide was de
 |---|---|
 | Computer Name | SIEM01 |
 | Username | Anakin |
-| Password | Password1 |
+| Password | Password1234$ |
 | IP address | 10.0.0.6 |
 | Domain name | starwars.local |
 
