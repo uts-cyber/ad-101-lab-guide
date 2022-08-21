@@ -133,6 +133,8 @@ Uncomment these lines and set a username and password. This will be used to auth
 At the bottom of the config file, add the following lines
 ```
 xpack.security.enabled: true
+xpack.ingestManager.fleet.tlsCheckDisabled: true
+xpack.encryptedSavedObjects.encryptionKey: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 ```
 
 Restart the kibana service
