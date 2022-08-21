@@ -66,7 +66,7 @@ Next, find the section called 'Discovery and add the following line
 ```
 discovery.type: single-node
 ```
-Usually their would be multiple Elasticsearch servers that are joined together in a cluster however we only have one so we are elling Elasticsearch not to try look for others
+Usually there would be multiple Elasticsearch servers that are joined together in a cluster however we only have one so we are telling Elasticsearch not to try look for others
 
 Restart the elasticsearch service
 ```
