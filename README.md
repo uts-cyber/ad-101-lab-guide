@@ -1,5 +1,5 @@
 # Your Guide To: AD101, Build your own cybersecurity lab with a SIEM
-Note: This lab guide is not enough to setup the lab by itself. This guide was designed to accompany the live workshop that was ran at UTS on the 23rd of August 2022 by UTS CSEC. To access the recording, you can join CSEC here: <insert link>
+Note: This lab guide is not enough to setup the lab by itself. This guide was designed to accompany the live workshop that was presented at UTS on the 23rd of August 2022 by UTS CSEC. To access the recording, you can join CSEC here: <insert link>
 
 # Lab Topology
 ![Lab Topology](./Images/lab_topology.png)
