@@ -7,8 +7,8 @@ Note: This lab guide is not enough to setup the lab by itself. This guide was de
 |---|---|
 | Computer Name | DC01 |
 | Username | Yoda |
-| Password | Password1234$ |
-| IP address | <> |
+| Password | <> |
+| IP address | 10.0.0.4 |
 | Domain name | starwars.local |
 
 | Windows 10 pro VM | Details|
