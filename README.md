@@ -8,14 +8,14 @@ Note: This lab guide is not enough to setup the lab by itself. This guide was de
 | Computer Name | DC01 |
 | Username | Yoda |
 | Password | Password1234$ |
-| IP address | 10.0.0.4 |
+| IP address | <> |
 | Domain name | starwars.local |
 
 | Windows 10 pro VM | Details|
 |---|---|
 | Computer Name | PC01 |
 | Username | Kenobi |
-| Password | Password1234$ |
+| Password | <> |
 | IP address | 10.0.0.5 |
 | Domain name | starwars.local |
 
@@ -23,7 +23,7 @@ Note: This lab guide is not enough to setup the lab by itself. This guide was de
 |---|---|
 | Computer Name | SIEM01 |
 | Username | Anakin |
-| Password | Password1234$ |
+| Password | <> |
 | IP address | 10.0.0.6 |
 | Domain name | starwars.local |
 
@@ -56,7 +56,7 @@ sudo /bin/systemctl enable kibana.service
 
 ## Configure Elastic 
 ```
-nano /etc/elasticsearch/elasticsearch.yml
+sudo nano /etc/elasticsearch/elasticsearch.yml
 ```
 Look for 'Network' section and uncomment the line for network.host and replace it with the IP address that you assigned to the local server
 
@@ -90,7 +90,7 @@ sudo systemctl status kibana
 
 ## Additional Configuration
 ```
-nano /etc/elasticsearch/elasticsearch.yml
+sudo nano /etc/elasticsearch/elasticsearch.yml
 ```
 Scroll down to the 'Various' section and add the following
 ```
@@ -124,7 +124,7 @@ sudo systemctl status elasticsearch
 ```
 
 ```
-nano /etc/kibana/kibana.yml
+sudo nano /etc/kibana/kibana.yml
 ```
 Scroll down until you see the section that references the elasticsearch.username and elasticsearch.password
 
